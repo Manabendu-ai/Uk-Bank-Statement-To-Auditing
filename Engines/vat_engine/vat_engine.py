@@ -1,6 +1,13 @@
 import json
+import json
+import os
 
-vat_rules = json.load(open("vat_engine/vat_rules.json"))
+BASE_DIR = os.path.dirname(__file__)
+RULES_PATH = os.path.join(BASE_DIR, "vat_rules.json")
+
+with open(RULES_PATH, "r") as f:
+    vat_rules = json.load(f)
+
 
 def calculate_vat(txn):
     desc = txn["description"]
