@@ -1,0 +1,6 @@
+{
+  "zero_rate": ["books", "food", "children clothes"],
+  "reduced_rate": ["electricity", "energy saving"],
+  "exempt": ["rent", "insurance"],
+  "standard_rate": []
+}
