@@ -1,0 +1,8 @@
+{
+  "Travel": ["lulticket", "train", "uber", "taxi"],
+  "Groceries": ["co-op", "tesco", "sainsbury", "asda"],
+  "Food & Drink": ["costa", "coffee", "cafe", "restaurant"],
+  "Clothing": ["river island", "zara", "h&m"],
+  "Fuel": ["bp", "shell", "esso"],
+  "Income": ["salary", "credit", "cr", "paypal", "stripe"]
+}

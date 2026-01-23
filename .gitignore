@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# PDFs and bank data
+data/input_pdfs/
+data/output_excel/
+data/processed_json/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Secrets (if you ever add)
+.env
